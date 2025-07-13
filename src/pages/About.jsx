@@ -57,7 +57,7 @@ const About = () => {
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-6"
+            className="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-gray-800 mb-6"
           >
             About TextTrace
           </motion.h1>
@@ -65,7 +65,7 @@ const About = () => {
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed"
+            className="text-xl text-gray-600 dark:text-gray-600 max-w-4xl mx-auto leading-relaxed"
           >
             TextTrace is a comprehensive educational platform designed specifically for textile engineering students. 
             We provide the tools, resources, and knowledge needed to master the complex world of textile processing, 
@@ -78,15 +78,15 @@ const About = () => {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3 }}
-          className="bg-gradient-hero text-white rounded-2xl p-8 md:p-12 mb-16"
+          className="bg-gradient-hero text-white dark:text-gray-100 rounded-2xl p-8 md:p-12 mb-16"
         >
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-heading font-bold mb-6">Our Mission</h2>
-            <p className="text-xl leading-relaxed mb-6">
+            <h2 className="text-3xl font-heading font-bold mb-6 text-white dark:text-gray-100">Our Mission</h2>
+            <p className="text-xl leading-relaxed mb-6 text-white dark:text-gray-100">
               To democratize textile education by providing free, high-quality, and accessible learning resources 
               that empower students to excel in their textile engineering studies and careers.
             </p>
-            <p className="text-lg opacity-90">
+            <p className="text-lg opacity-90 text-white dark:text-gray-100">
               We believe that quality education should be available to everyone, regardless of their background or financial situation.
             </p>
           </div>
@@ -105,7 +105,7 @@ const About = () => {
               <div className="text-4xl md:text-5xl font-bold text-primary dark:text-primary-light mb-2">
                 {stat.number}
               </div>
-              <div className="text-gray-600 dark:text-gray-300 font-medium">
+              <div className="text-gray-600 dark:text-gray-500 font-medium">
                 {stat.label}
               </div>
             </motion.div>
@@ -114,7 +114,7 @@ const About = () => {
 
         {/* Features Grid */}
         <div className="mb-16">
-          <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-white text-center mb-12">
+          <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-gray-800 text-center mb-12">
             Why Choose TextTrace?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -197,10 +197,10 @@ const About = () => {
           transition={{ delay: 0.5 }}
           className="text-center"
         >
-          <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-gray-800 mb-4">
             Join Our Learning Community
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-800 mb-8 max-w-3xl mx-auto">
             Whether you're a first-year student or preparing for your final exams, TextTrace provides 
             the comprehensive resources you need to succeed in textile engineering.
           </p>

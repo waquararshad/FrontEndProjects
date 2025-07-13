@@ -92,7 +92,7 @@ const Contact = () => {
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-6"
+            className="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-gray-800 mb-6"
           >
             Get in Touch
           </motion.h1>
@@ -100,7 +100,7 @@ const Contact = () => {
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
+            className="text-xl text-gray-600 dark:text-gray-700 max-w-3xl mx-auto"
           >
             Have questions, suggestions, or need support? We're here to help you succeed in your textile engineering journey.
           </motion.p>
@@ -274,24 +274,24 @@ const Contact = () => {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6 }}
-          className="mt-16 bg-gradient-hero text-white rounded-2xl p-8 md:p-12 text-center"
+          className="mt-16 bg-gradient-hero text-white dark:text-gray-100 rounded-2xl p-8 md:p-12 text-center"
         >
           <h2 className="text-3xl font-heading font-bold mb-4">
             Need Immediate Help?
           </h2>
-          <p className="text-xl mb-6">
+          <p className="text-xl mb-6 text-white dark:text-gray-200">
             Check out our comprehensive documentation and tutorial videos
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/glossary"
-              className="inline-flex items-center px-6 py-3 bg-white/20 hover:bg-white/30 text-white font-semibold rounded-lg transition-colors backdrop-blur-sm border border-white/20"
+              className="inline-flex items-center px-6 py-3 bg-white/20 hover:bg-white/30 text-white dark:text-gray-100 font-semibold rounded-lg transition-colors backdrop-blur-sm border border-white/20"
             >
               Browse Glossary
             </a>
             <a
               href="/quiz"
-              className="inline-flex items-center px-6 py-3 bg-accent hover:bg-accent/90 text-white font-semibold rounded-lg transition-colors"
+              className="inline-flex items-center px-6 py-3 bg-accent hover:bg-accent/90 text-white dark:text-gray-100 font-semibold rounded-lg transition-colors"
             >
               Test Your Knowledge
             </a>

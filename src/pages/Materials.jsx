@@ -91,10 +91,10 @@ const Materials = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-gray-800 mb-4">
             Material Comparison
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-700 max-w-3xl mx-auto">
             Compare properties and characteristics of different textile materials
           </p>
         </div>
@@ -139,7 +139,7 @@ const Materials = () => {
 
         {/* Results Count */}
         <div className="mb-6">
-          <p className="text-gray-600 dark:text-gray-400">
+          <p className="text-gray-600 dark:text-gray-600">
             Showing {sortedResults.length} of {materialsData.length} materials
           </p>
         </div>

@@ -45,10 +45,10 @@ const Glossary = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-gray-800 mb-4">
             Textile Glossary
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-700 max-w-3xl mx-auto">
             Comprehensive dictionary of textile engineering terms and definitions
           </p>
         </div>
@@ -68,7 +68,7 @@ const Glossary = () => {
 
               {/* Alphabet Filter */}
               <div>
-                <h3 className="font-medium text-gray-900 dark:text-white mb-3">Filter by Letter</h3>
+                <h3 className="font-medium text-gray-900 dark:text-gray-600 mb-3">Filter by Letter</h3>
                 <div className="grid grid-cols-6 lg:grid-cols-4 gap-1">
                   <button
                     onClick={() => setSelectedLetter('all')}
@@ -98,23 +98,31 @@ const Glossary = () => {
 
               {/* Category Filter */}
               <div>
-                <h3 className="font-medium text-gray-900 dark:text-white mb-3">Filter by Category</h3>
-                <div className="space-y-1">
-                  {categories.map(category => (
-                    <button
-                      key={category}
-                      onClick={() => setSelectedCategory(category)}
-                      className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
-                        selectedCategory === category
-                          ? 'bg-primary text-white'
-                          : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
-                      }`}
-                    >
-                      {category === 'all' ? 'All Categories' : category}
-                    </button>
-                  ))}
-                </div>
-              </div>
+            <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-3">
+              Filter by Category
+            </h3>
+
+            <div className="space-y-1">
+              {categories.map((category) => (
+                <button
+                  key={category}
+                  onClick={() => setSelectedCategory(category)}
+                  className={`w-full text-left px-3 py-2 rounded-lg text-sm font-medium transition-colors
+                    ${
+                      selectedCategory === category
+                        ? /* ACTIVE */
+                          'bg-primary text-white dark:bg-primary-light dark:text-gray-900'
+                        : /* INACTIVE */
+                          'bg-gray-100 text-gray-700 hover:bg-gray-200 \
+                          dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'
+                    }`}
+                >
+                  {category === 'all' ? 'All Categories' : category}
+                </button>
+              ))}
+            </div>
+          </div>
+
             </div>
           </div>
 
@@ -122,7 +130,7 @@ const Glossary = () => {
           <div className="flex-1">
             {/* Results Count */}
             <div className="mb-6">
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-600 dark:text-gray-600">
                 Showing {filteredResults.length} of {glossaryData.length} terms
               </p>
             </div>

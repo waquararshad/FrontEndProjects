@@ -146,12 +146,12 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary dark:bg-gray-900 text-white">
+      <section className="py-20 bg-primary dark:bg-gray-900 text-white dark:text-gray-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
             Ready to Master Textile Engineering?
           </h2>
-          <p className="text-xl text-gray-100 mb-8 leading-relaxed">
+          <p className="text-xl text-gray-100 dark:text-gray-200 mb-8 leading-relaxed">
             Join thousands of students who are advancing their textile knowledge with our comprehensive platform
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -164,7 +164,7 @@ const Home = () => {
             </Link>
             <Link
               to="/about"
-              className="inline-flex items-center px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg transition-colors duration-200 backdrop-blur-sm border border-white/20"
+              className="inline-flex items-center px-8 py-4 bg-white/10 hover:bg-white/20 text-white dark:text-gray-100 font-semibold rounded-lg transition-colors duration-200 backdrop-blur-sm border border-white/20"
             >
               Learn More About Us
             </Link>

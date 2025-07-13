@@ -33,7 +33,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400 }}
             >
-              TextTrace
+              Text<span style={{color: "#ea8346"}}>T</span>race
             </motion.h1>
           </Link>
 
