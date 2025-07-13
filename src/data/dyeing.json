@@ -1,0 +1,152 @@
+[
+  {
+    "id": "acid-dye-wool",
+    "title": "Acid Dye for Wool",
+    "type": "Acid Dye",
+    "suitableFabrics": ["Wool", "Silk", "Nylon"],
+    "materials": [
+      "Acid dye (2-4% owf)",
+      "Acetic acid or formic acid",
+      "Sodium sulfate",
+      "Water"
+    ],
+    "steps": [
+      "Pre-wet the fabric thoroughly",
+      "Prepare dye bath at 40°C with acid",
+      "Add pre-dissolved dye solution",
+      "Enter fabric and gradually heat to 100°C",
+      "Maintain temperature for 45-60 minutes",
+      "Cool slowly and rinse"
+    ],
+    "difficulty": "Intermediate",
+    "temperature": "100°C",
+    "time": "90 minutes",
+    "tags": ["protein fiber", "acid", "wool", "silk"],
+    "notes": "Excellent color fastness on protein fibers. pH should be maintained at 2.5-4.0"
+  },
+  {
+    "id": "reactive-dye-cotton",
+    "title": "Reactive Dye for Cotton",
+    "type": "Reactive Dye",
+    "suitableFabrics": ["Cotton", "Linen", "Viscose", "Modal"],
+    "materials": [
+      "Reactive dye (2-6% owf)",
+      "Sodium carbonate (soda ash)",
+      "Common salt (sodium chloride)",
+      "Water"
+    ],
+    "steps": [
+      "Pre-treat fabric with wetting agent",
+      "Prepare neutral dye bath at 30°C",
+      "Add salt gradually over 20 minutes",
+      "Add alkali (soda ash) to fix dye",
+      "Maintain 60°C for 60 minutes",
+      "Hot rinse and wash thoroughly"
+    ],
+    "difficulty": "Advanced",
+    "temperature": "60°C",
+    "time": "120 minutes",
+    "tags": ["cellulose fiber", "alkaline", "cotton", "wash-fast"],
+    "notes": "High wash fastness. Requires thorough washing to remove unfixed dye"
+  },
+  {
+    "id": "vat-dye-cotton",
+    "title": "Vat Dye Process",
+    "type": "Vat Dye",
+    "suitableFabrics": ["Cotton", "Linen", "Viscose"],
+    "materials": [
+      "Vat dye (1-3% owf)",
+      "Sodium hydrosulfite (reducing agent)",
+      "Sodium hydroxide (caustic soda)",
+      "Hydrogen peroxide (oxidizing agent)"
+    ],
+    "steps": [
+      "Prepare alkaline reducing bath",
+      "Dissolve vat dye in reducing conditions",
+      "Impregnate fabric in leuco form",
+      "Squeeze and expose to air for oxidation",
+      "Soap wash at 95°C",
+      "Final rinse and dry"
+    ],
+    "difficulty": "Expert",
+    "temperature": "60°C",
+    "time": "180 minutes",
+    "tags": ["indigo", "reduction", "oxidation", "lightfast"],
+    "notes": "Excellent light and wash fastness. Traditional indigo dyeing method"
+  },
+  {
+    "id": "natural-dye-turmeric",
+    "title": "Natural Turmeric Dye",
+    "type": "Natural Dye",
+    "suitableFabrics": ["Cotton", "Silk", "Wool"],
+    "materials": [
+      "Fresh turmeric root or powder",
+      "Alum (mordant)",
+      "Cream of tartar",
+      "Water"
+    ],
+    "steps": [
+      "Extract turmeric by boiling for 1 hour",
+      "Strain the dye liquor",
+      "Pre-mordant fabric with alum solution",
+      "Enter fabric in warm dye bath",
+      "Heat gradually to 80°C",
+      "Cool in bath and rinse gently"
+    ],
+    "difficulty": "Beginner",
+    "temperature": "80°C",
+    "time": "60 minutes",
+    "tags": ["natural", "yellow", "eco-friendly", "traditional"],
+    "notes": "Produces beautiful golden yellow. Light fastness is moderate"
+  },
+  {
+    "id": "disperse-dye-polyester",
+    "title": "Disperse Dye for Polyester",
+    "type": "Disperse Dye",
+    "suitableFabrics": ["Polyester", "Acetate", "Triacetate"],
+    "materials": [
+      "Disperse dye (0.5-3% owf)",
+      "Dispersing agent",
+      "Acetic acid",
+      "Carrier (optional)"
+    ],
+    "steps": [
+      "Prepare fine dye dispersion",
+      "Set liquor ratio 1:20",
+      "Enter fabric at 60°C",
+      "Raise temperature to 130°C gradually",
+      "Maintain for 45 minutes",
+      "Cool and wash with detergent"
+    ],
+    "difficulty": "Advanced",
+    "temperature": "130°C",
+    "time": "90 minutes",
+    "tags": ["synthetic fiber", "high temperature", "pressure", "sublimation"],
+    "notes": "Requires high temperature or pressure. Good wash fastness on polyester"
+  },
+  {
+    "id": "direct-dye-cotton",
+    "title": "Direct Dye Application",
+    "type": "Direct Dye",
+    "suitableFabrics": ["Cotton", "Viscose", "Linen"],
+    "materials": [
+      "Direct dye (2-5% owf)",
+      "Common salt",
+      "Soda ash (optional)",
+      "Water"
+    ],
+    "steps": [
+      "Prepare dye bath with salt",
+      "Add pre-dissolved dye at 40°C",
+      "Enter pre-wetted fabric",
+      "Gradually heat to 95°C",
+      "Maintain for 60 minutes",
+      "Cool and rinse thoroughly"
+    ],
+    "difficulty": "Beginner",
+    "temperature": "95°C",
+    "time": "75 minutes",
+    "tags": ["cellulose", "economical", "salt", "direct application"],
+    "notes": "Simple process but moderate wash fastness. Often requires aftertreatment"
+  }
+]

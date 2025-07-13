@@ -1,0 +1,172 @@
+[
+  {
+    "term": "Abrasion Resistance",
+    "definition": "The ability of a fabric to withstand rubbing or friction without showing wear.",
+    "category": "Properties"
+  },
+  {
+    "term": "Acid Dye",
+    "definition": "A class of dyes that work best in acidic conditions, primarily used for protein fibers like wool and silk.",
+    "category": "Dyes"
+  },
+  {
+    "term": "Affinity",
+    "definition": "The attraction between a dye molecule and a fiber, determining how well the dye will bond.",
+    "category": "Chemistry"
+  },
+  {
+    "term": "Auxochrome",
+    "definition": "A chemical group that enhances or modifies the color of a chromophore in dye molecules.",
+    "category": "Chemistry"
+  },
+  {
+    "term": "Bleaching",
+    "definition": "The process of removing natural color from fibers to achieve whiteness or prepare for dyeing.",
+    "category": "Processing"
+  },
+  {
+    "term": "Calendering",
+    "definition": "A finishing process that passes fabric through heated rollers to improve surface smoothness and luster.",
+    "category": "Finishing"
+  },
+  {
+    "term": "Chromophore",
+    "definition": "The part of a dye molecule responsible for color by absorbing certain wavelengths of light.",
+    "category": "Chemistry"
+  },
+  {
+    "term": "Color Fastness",
+    "definition": "The resistance of a dyed fabric to fading or running when exposed to various conditions.",
+    "category": "Testing"
+  },
+  {
+    "term": "Denier",
+    "definition": "A unit of measurement for the linear mass density of fibers, equal to the mass in grams per 9000 meters.",
+    "category": "Measurement"
+  },
+  {
+    "term": "Desizing",
+    "definition": "The removal of sizing agents that were applied to warp yarns before weaving.",
+    "category": "Processing"
+  },
+  {
+    "term": "Direct Dye",
+    "definition": "Water-soluble dyes that can be applied directly to cellulose fibers from an aqueous solution.",
+    "category": "Dyes"
+  },
+  {
+    "term": "Disperse Dye",
+    "definition": "Water-insoluble dyes used primarily for synthetic fibers like polyester, applied as fine dispersions.",
+    "category": "Dyes"
+  },
+  {
+    "term": "Exhaust Dyeing",
+    "definition": "A dyeing method where fabric is immersed in a dye bath and the dye gradually transfers to the fiber.",
+    "category": "Dyeing"
+  },
+  {
+    "term": "Fiber",
+    "definition": "A natural or synthetic material that is significantly longer than it is wide, used to make yarn and fabric.",
+    "category": "Materials"
+  },
+  {
+    "term": "Fixation",
+    "definition": "The process of making a dye permanently attach to a fiber through chemical or physical bonds.",
+    "category": "Dyeing"
+  },
+  {
+    "term": "GSM",
+    "definition": "Grams per Square Meter - a measurement of fabric weight and thickness.",
+    "category": "Measurement"
+  },
+  {
+    "term": "Hydrophilic",
+    "definition": "Having an affinity for water; water-loving. Describes fibers that readily absorb moisture.",
+    "category": "Properties"
+  },
+  {
+    "term": "Hydrophobic",
+    "definition": "Repelling water; water-hating. Describes fibers that resist moisture absorption.",
+    "category": "Properties"
+  },
+  {
+    "term": "Leveling Agent",
+    "definition": "A chemical additive that promotes uniform dye distribution and prevents uneven coloring.",
+    "category": "Chemicals"
+  },
+  {
+    "term": "Mercerizing",
+    "definition": "A treatment of cotton with concentrated sodium hydroxide to improve luster, strength, and dye affinity.",
+    "category": "Processing"
+  },
+  {
+    "term": "Mordant",
+    "definition": "A substance that combines with a dye to form an insoluble colored compound, improving fastness.",
+    "category": "Chemicals"
+  },
+  {
+    "term": "Natural Dye",
+    "definition": "Colorants derived from plants, animals, or minerals, traditionally used before synthetic dyes.",
+    "category": "Dyes"
+  },
+  {
+    "term": "OWF",
+    "definition": "On Weight of Fiber - a method of expressing chemical concentrations as a percentage of fiber weight.",
+    "category": "Measurement"
+  },
+  {
+    "term": "Padding",
+    "definition": "A continuous dyeing process where fabric is impregnated with dye solution using padder rollers.",
+    "category": "Dyeing"
+  },
+  {
+    "term": "pH",
+    "definition": "A measure of acidity or alkalinity, crucial in dyeing processes for proper dye-fiber interaction.",
+    "category": "Chemistry"
+  },
+  {
+    "term": "Reactive Dye",
+    "definition": "Dyes that form covalent bonds with fiber molecules, providing excellent wash fastness.",
+    "category": "Dyes"
+  },
+  {
+    "term": "Scouring",
+    "definition": "The cleaning process that removes natural and added impurities from textile materials.",
+    "category": "Processing"
+  },
+  {
+    "term": "Singeing",
+    "definition": "A process that burns off protruding fiber ends to create a smooth fabric surface.",
+    "category": "Processing"
+  },
+  {
+    "term": "Substantivity",
+    "definition": "The affinity of a dye for a particular fiber without the aid of chemical assistance.",
+    "category": "Chemistry"
+  },
+  {
+    "term": "Tenacity",
+    "definition": "The resistance of a fiber to breaking, usually expressed as force per unit of linear density.",
+    "category": "Properties"
+  },
+  {
+    "term": "Tex",
+    "definition": "A unit of measurement for fiber linear density, equal to the mass in grams per 1000 meters.",
+    "category": "Measurement"
+  },
+  {
+    "term": "Thermofixation",
+    "definition": "The use of heat to permanently set dyes or finishes in synthetic materials.",
+    "category": "Processing"
+  },
+  {
+    "term": "Vat Dye",
+    "definition": "Insoluble dyes that are reduced to a soluble form for application, then oxidized to fix the color.",
+    "category": "Dyes"
+  },
+  {
+    "term": "Wet Fastness",
+    "definition": "The resistance of dyed fabrics to color change when exposed to water or wet conditions.",
+    "category": "Testing"
+  }
+]

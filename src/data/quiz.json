@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Which type of dye is most suitable for dyeing wool and silk?",
+    "options": [
+      "Reactive dyes",
+      "Acid dyes", 
+      "Direct dyes",
+      "Disperse dyes"
+    ],
+    "correct": 1,
+    "explanation": "Acid dyes work best on protein fibers like wool and silk because they form ionic bonds with amino groups in the fiber structure."
+  },
+  {
+    "id": 2,
+    "question": "What is the primary purpose of mercerizing cotton?",
+    "options": [
+      "To remove impurities",
+      "To bleach the fiber",
+      "To improve luster and dye affinity",
+      "To add elasticity"
+    ],
+    "correct": 2,
+    "explanation": "Mercerizing with concentrated NaOH improves cotton's luster, strength, and ability to accept dyes by swelling the fiber structure."
+  },
+  {
+    "id": 3,
+    "question": "Which chemical is commonly used as a reducing agent in vat dyeing?",
+    "options": [
+      "Hydrogen peroxide",
+      "Sodium hydrosulfite",
+      "Acetic acid",
+      "Sodium chloride"
+    ],
+    "correct": 1,
+    "explanation": "Sodium hydrosulfite is the most common reducing agent used to convert insoluble vat dyes into their soluble leuco form."
+  },
+  {
+    "id": 4,
+    "question": "At what temperature are disperse dyes typically applied to polyester?",
+    "options": [
+      "60°C",
+      "80°C",
+      "100°C",
+      "130°C"
+    ],
+    "correct": 3,
+    "explanation": "Disperse dyes require high temperature (130°C) or pressure to penetrate the compact structure of polyester fibers."
+  },
+  {
+    "id": 5,
+    "question": "What does 'OWF' stand for in textile processing?",
+    "options": [
+      "Overall Water Flow",
+      "On Weight of Fabric",
+      "On Weight of Fiber",
+      "Optimal Working Formula"
+    ],
+    "correct": 2,
+    "explanation": "OWF means 'On Weight of Fiber' and is used to express chemical concentrations as a percentage of the fiber weight being processed."
+  },
+  {
+    "id": 6,
+    "question": "Which process is used to remove sizing agents from woven fabric?",
+    "options": [
+      "Scouring",
+      "Bleaching",
+      "Desizing",
+      "Mercerizing"
+    ],
+    "correct": 2,
+    "explanation": "Desizing specifically removes starch and other sizing agents that were applied to warp yarns during weaving to facilitate the weaving process."
+  },
+  {
+    "id": 7,
+    "question": "What is the main characteristic of reactive dyes?",
+    "options": [
+      "They require high temperature",
+      "They form covalent bonds with fiber",
+      "They work only in acidic conditions",
+      "They are water-insoluble"
+    ],
+    "correct": 1,
+    "explanation": "Reactive dyes form permanent covalent chemical bonds with the fiber molecules, resulting in excellent wash fastness."
+  },
+  {
+    "id": 8,
+    "question": "Which natural fiber has the highest moisture absorption capacity?",
+    "options": [
+      "Cotton",
+      "Wool",
+      "Silk",
+      "Linen"
+    ],
+    "correct": 3,
+    "explanation": "Linen (flax) has exceptional moisture absorption properties, making it ideal for hot weather clothing and towels."
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of using salt in reactive dyeing?",
+    "options": [
+      "To adjust pH",
+      "To promote dye exhaustion",
+      "To prevent dye fixation",
+      "To reduce temperature"
+    ],
+    "correct": 1,
+    "explanation": "Salt promotes dye exhaustion by reducing the electrostatic repulsion between anionic dye molecules and negatively charged cellulose fibers."
+  },
+  {
+    "id": 10,
+    "question": "Which finishing process improves fabric dimensional stability?",
+    "options": [
+      "Calendering",
+      "Singeing",
+      "Sanforizing",
+      "Heat setting"
+    ],
+    "correct": 2,
+    "explanation": "Sanforizing is a controlled shrinkage process that stabilizes fabric dimensions and prevents excessive shrinkage during laundering."
+  },
+  {
+    "id": 11,
+    "question": "What is the main advantage of using natural dyes?",
+    "options": [
+      "Higher color fastness",
+      "Lower cost",
+      "Environmental friendliness",
+      "Easier application"
+    ],
+    "correct": 2,
+    "explanation": "Natural dyes are biodegradable and environmentally friendly, though they generally have lower fastness properties than synthetic dyes."
+  },
+  {
+    "id": 12,
+    "question": "Which fiber property is measured in denier?",
+    "options": [
+      "Strength",
+      "Linear density",
+      "Elasticity",
+      "Color fastness"
+    ],
+    "correct": 1,
+    "explanation": "Denier measures the linear mass density of fibers, defined as the mass in grams per 9000 meters of fiber length."
+  }
+]

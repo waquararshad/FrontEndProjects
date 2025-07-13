@@ -1,0 +1,119 @@
+[
+  {
+    "id": "scouring",
+    "name": "Scouring",
+    "purpose": "Remove natural and added impurities from textile fibers",
+    "method": "Alkaline treatment with detergents and sodium hydroxide",
+    "temperature": "95-100°C",
+    "time": "60-120 minutes",
+    "chemicals": [
+      "Sodium hydroxide (0.5-2%)",
+      "Scouring agent (0.5-1%)",
+      "Sequestering agent (0.1-0.2%)",
+      "Hydrogen peroxide (optional)"
+    ],
+    "process": "Continuous or batch process using jiggers, winches, or beck machines",
+    "category": "Preparation"
+  },
+  {
+    "id": "bleaching",
+    "name": "Bleaching",
+    "purpose": "Remove natural coloring matter and achieve high whiteness",
+    "method": "Oxidative bleaching using hydrogen peroxide or chlorine compounds",
+    "temperature": "80-95°C",
+    "time": "60-180 minutes",
+    "chemicals": [
+      "Hydrogen peroxide (2-8%)",
+      "Sodium hydroxide (1-3%)",
+      "Stabilizer (0.1-0.5%)",
+      "Sequestering agent (0.1-0.2%)"
+    ],
+    "process": "Pad-batch, continuous, or exhaust methods",
+    "category": "Preparation"
+  },
+  {
+    "id": "mercerizing",
+    "name": "Mercerizing",
+    "purpose": "Improve luster, strength, and dye affinity of cotton",
+    "method": "Treatment with concentrated sodium hydroxide under tension",
+    "temperature": "15-25°C",
+    "time": "30-90 seconds",
+    "chemicals": [
+      "Sodium hydroxide (18-25% concentration)",
+      "Wetting agent (0.1-0.2%)"
+    ],
+    "process": "Continuous process with controlled tension and caustic concentration",
+    "category": "Chemical Finishing"
+  },
+  {
+    "id": "singeing",
+    "name": "Singeing",
+    "purpose": "Remove protruding fibers and achieve smooth fabric surface",
+    "method": "Passing fabric over gas flames or heated plates",
+    "temperature": "800-1000°C (flame)",
+    "time": "Instantaneous contact",
+    "chemicals": [
+      "No chemicals required",
+      "Quenching water for safety"
+    ],
+    "process": "Continuous process with flame or contact singeing",
+    "category": "Mechanical Finishing"
+  },
+  {
+    "id": "desizing",
+    "name": "Desizing",
+    "purpose": "Remove sizing agents applied during weaving",
+    "method": "Enzymatic, alkaline, or acid hydrolysis",
+    "temperature": "60-80°C",
+    "time": "30-60 minutes",
+    "chemicals": [
+      "Amylase enzyme (0.1-0.5%)",
+      "Wetting agent (0.1-0.2%)",
+      "Buffer system (pH 6-7)"
+    ],
+    "process": "Pad-steam, exhaust, or continuous washing",
+    "category": "Preparation"
+  },
+  {
+    "id": "calendering",
+    "name": "Calendering",
+    "purpose": "Improve smoothness, luster, and hand feel of fabric",
+    "method": "Passing fabric through heated metal rollers under pressure",
+    "temperature": "150-200°C",
+    "time": "Continuous process",
+    "chemicals": [
+      "Starch or synthetic sizing (optional)",
+      "Lubricants for rollers"
+    ],
+    "process": "Multi-bowl calender with controlled pressure and temperature",
+    "category": "Mechanical Finishing"
+  },
+  {
+    "id": "sanforizing",
+    "name": "Sanforizing",
+    "purpose": "Control fabric shrinkage and dimensional stability",
+    "method": "Controlled shrinkage using moisture, heat, and pressure",
+    "temperature": "160-180°C",
+    "time": "Continuous process",
+    "chemicals": [
+      "Steam for moisture control",
+      "Softening agents (optional)"
+    ],
+    "process": "Sanforizing machine with rubber blanket and heated cylinder",
+    "category": "Dimensional Stabilization"
+  },
+  {
+    "id": "heat-setting",
+    "name": "Heat Setting",
+    "purpose": "Stabilize synthetic fabrics and set permanent pleats",
+    "method": "Dry heat treatment under controlled conditions",
+    "temperature": "180-210°C",
+    "time": "15-60 seconds",
+    "chemicals": [
+      "No chemicals required",
+      "Anti-static agents (optional)"
+    ],
+    "process": "Pin stenter or tenter frame with precise temperature control",
+    "category": "Thermal Treatment"
+  }
+]
